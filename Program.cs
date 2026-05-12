@@ -17,8 +17,10 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAngular", policy =>
     {
         policy.WithOrigins(
-                "https://ntczooangularvaj.infinityfreeapp.com",
-                "http://localhost:4200"
+        "https://ntczooangularvaj.infinityfreeapp.com",
+        "http://localhost:4200",
+        "http://localhost:5173",
+        "https://ntc-zoo-vaj.infinityfreeapp.com"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
