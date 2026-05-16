@@ -20,7 +20,8 @@ builder.Services.AddCors(options =>
         "https://ntczooangularvaj.infinityfreeapp.com",
         "http://localhost:4200",
         "http://localhost:5173",
-        "https://ntc-zoo-vaj.infinityfreeapp.com"
+        "https://ntc-zoo-vaj.infinityfreeapp.com",
+        "http://localhost:8081"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
